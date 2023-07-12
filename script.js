@@ -235,6 +235,36 @@
 
 // Answer 12
 
+// var sub1 = Number(window.prompt('Enter your subject 1'));
+// var sub2 = Number(window.prompt('Enter your subject 2'));
+// var sub3 = Number(window.prompt('Enter your subject 3'));
+// var sub4 = Number(window.prompt('Enter your subject 4'));
+// var sub5 = Number(window.prompt('Enter your subject 5'));
+
+
+// var totalMarks = sub1 + sub2 + sub3 + sub4 + sub5;
+// console.log(totalMarks);
+
+// var averageMarks = totalMarks / 5 ;
+// console.log(averageMarks);
+
+// var percentage = (totalMarks/500)*100;
+// console.log(percentage);
+
+// ---------------------------------------------------------------
+
+// 13-Write a program to input month number and print number of days in that 
+// month.
+// Example:
+// Input: - Month Number: 1
+//  Output:-. Days in Month: 31
+
+// Answer 13
+
+
+
+
+
 
 
 
