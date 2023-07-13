@@ -261,6 +261,181 @@
 
 // Answer 13
 
+// var month = Number(window.prompt("Enter month Number"))
+// if (month == 4 || month == 6 || month == 9 || month == 11) {
+//     console.log("30 Days")
+// }
+// else if (month == 2) {
+//     console.log("28 or 29 Days")
+// }
+// else {
+//     console.log("31 Days");
+// }
+
+// -------------------------------------------------------------------
+
+// 14- Write a program to input marks of five subjects
+// Physics, Chemistry, Biology, Mathematics and Computer
+// , Find percentage and grade 
+// Percentage >= 90%: Grad A
+// Percentage >= 80%: Grad B
+// Percentage >= 70%: Grad C
+// Percentage >= 60%: Grad D
+// Percentage >= 40%: Grad E
+// Percentage < 40%: Grad F
+
+// Answer 14
+
+// var Physics = Number(window.prompt("Enter physics marks"));
+// var Chemistry = Number(window.prompt("Enter chemisty marks"));
+// var Biology = Number(window.prompt("Enter biology marks"));
+// var Mathematics = Number(window.prompt("Enter mathematics marks"));
+// var Computer = Number(window.prompt("Enter computer marks"));
+// var persentage = (Physics + Chemistry + Biology + Mathematics + Computer) / 500 * 100;
+
+// if (persentage >= 90) {
+//     console.log("Grade A")
+// } 
+// else if (persentage >= 80) {
+//     console.log("Grade B")
+// } 
+// else if (persentage >= 70) {
+//     console.log("Grade C")
+// } 
+// else if (persentage >= 60) {
+//     console.log("Grade D")
+// } 
+// else if (persentage >= 40) {
+//     console.log("Grade E")
+// }
+//  else if (persentage < 40) {
+//     console.log("Grade F")
+// }
+
+// -----------------------------------------------------------------
+
+// ********************************* Using switch case*********************************
+
+// 15- Write a program to print total number of days in month 
+
+// Answer 15
+
+// var month = window.prompt("Entyer your month ");
+// switch (month) {
+//     case '4':
+//     case '6':
+//     case '9':
+//     case '11':
+//         console.log("30 days");
+//         break;
+//     case '2':
+//         console.log("28 or 29 days");
+//         break;
+//     default:
+//         console.log("31 days");
+// }
+
+// ------------------------------------------------------------------
+
+// 16 - Write a program to check whether an alphabet is vowel or consonant
+
+// Answer 16
+
+// var char = window.prompt("Enter your char");
+// switch (char) {
+//     case "a":
+//     case "A":
+//     case "e":
+//     case "E":
+//     case "i":
+//     case "I":
+//     case "o":
+//     case "O":
+//     case "u":
+//     case "U":
+//         console.log("char is vowel");
+//         break;
+//     default:
+//         console.log("char is consonant");
+//         break;
+// }
+
+// ---------------------------------------------------------------------
+
+// 17 - Write a program to find maximum between two numbers
+
+// Answer 17
+
+// var num1 = Number(window.prompt('enter number 1'))
+// var num2 = Number(window.prompt('enter number 2'))
+// switch (num1 > num2) {
+//     case true: 
+//     console.log(" number is bigger= " + num1);
+//         break;
+        
+//     case false: 
+//     console.log("number is bigger= " + num2);
+//         break;
+// }
+
+// ---------------------------------------------------------------
+
+// 18- Write a program to check whether a number is even or odd 
+
+// Answer 18
+
+// var num = Number(window.prompt('enter number'))
+// switch (num % 2 == 0) {
+//     case true:
+//          console.log("this number is even");
+//         break;
+//     case false:
+//          console.log("this number is odd");
+//         break;
+// }
+
+// ----------------------------------------------------------------
+
+// 19- Write a program to check whether a number is positive or negative or zero
+
+// Answer 19
+
+// var num = Number(window.prompt('enter your number'))
+// switch (num > 0) {
+//     case true:
+//         console.log("Number is positive");
+//         break;
+//     case false:
+//         console.log("Number is negative");
+//         break;
+// }
+
+// ---------------------------------------------------------------------
+
+// 20 - Write a program to create Simple Calculator
+
+// Answer 20
+
+// var num1 = Number(window.prompt("Enter first number"));
+// var operator  = window.prompt("Enter your operator ");
+// var num2 = Number(window.prompt("Enter second number"));
+
+// switch (operator ) {
+//     case "+":
+//         console.log(num1 + num2);
+//         break;
+//     case "-":
+//         console.log(num1 - num2);
+//         break;
+//     case "*":
+//         console.log(num1 * num2);
+//         break;
+//     case "/":
+//         console.log(num1 / num2);
+//         break;
+// }
+
+
 
 
 
